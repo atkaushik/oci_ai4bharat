@@ -1,0 +1,12 @@
+# Flash Attention 2 requires a compatible CUDA/PyTorch build.
+# Install IndicTransToolkit separately; see README.
+torch>=2.3.0
+transformers
+sentencepiece
+python-dotenv
+oci
+pysrt
+pydub
+opencv-python
+Pillow
+tabulate

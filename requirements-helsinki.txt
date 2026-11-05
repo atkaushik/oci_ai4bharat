@@ -1,0 +1,4 @@
+oci
+torch>=2.3.0
+transformers
+sentencepiece
