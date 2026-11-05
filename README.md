@@ -1,6 +1,8 @@
 # Indic subtitle translation
 
-# The overall flow is:
+## Overall flow
+
+```text
 Video/audio in OCI Object Storage
              ↓
       OCI Speech transcription
@@ -12,6 +14,7 @@ Video/audio in OCI Object Storage
  Translation using AI4Bharat or OCI GenAI
              ↓
  Translated SRT → WebVTT for web playback
+```
 
 Translate existing SRT subtitles into Indian languages with AI4Bharat IndicTrans2.
 Optional scripts also provide OCI Speech transcription, OCI GenAI translation,
